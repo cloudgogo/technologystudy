@@ -1,0 +1,22 @@
+{
+    "python.pythonPath": "/usr/bin/python3",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "MarkdownPaste.path": "./img/",
+    "MarkdownPaste.rules": [
+        {
+            "regex": "^(?:https?://)?(?:(?:(?:www\\.?)?youtube\\.com(?:/(?:(?:watch\\?.*?v=([^&\\s]+).*)|))?))",
+            "options": "g",
+            "replace": "[![](https://img.youtube.com/vi/$1/0.jpg)](https://www.youtube.com/watch?v=$1)"
+        },
+        {
+            "regex": "^(https?://.*)",
+            "options": "ig",
+            "replace": "[]($1)"
+        }
+    ],
+    "editor.maxTokenizationLineLength": 200000000,
+    "pasteImage.path": "${currentFileDir}/assets",
+    "pasteImage.namePrefix": "img-",
+}
