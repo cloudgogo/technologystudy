@@ -231,3 +231,12 @@ tuple虽然是不变对象，但试试把`(1, 2, 3)`和`(1, [2, 3])`放入dict�
 [the_dict.py](https://github.com/michaelliao/learn-python3/blob/master/samples/basic/the_dict.py)
 
 [the_set.py](https://github.com/michaelliao/learn-python3/blob/master/samples/basic/the_set.py)
+
+
+# 解释下相关概念:
+
+关于容器一共就4种：list，tuple，dict，set
+
+容器类型|写法|说明
+:--|:--|:--
+list|[a,b]|
