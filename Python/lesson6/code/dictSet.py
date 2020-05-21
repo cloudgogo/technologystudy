@@ -68,10 +68,10 @@ print(s1|s2)
 #   File "<stdin>", line 1, in <module>
 # TypeError: unhashable type: 'list'
 
->>> a={(1,2,3):1}
->>> a[(1,2,3)]
-1
->>> a={(1,[2,3]):1}
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: unhashable type: 'list'
+# >>> a={(1,2,3):1}
+# >>> a[(1,2,3)]
+# 1
+# >>> a={(1,[2,3]):1}
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# TypeError: unhashable type: 'list'
